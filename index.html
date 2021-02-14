@@ -20,6 +20,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
 
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Hello, world!</title>
   </head>
   <body>
@@ -72,7 +73,7 @@
         <div class="carousel-item active">
           <img src="img/header.png" class="d-block w-100" alt="..." />
           <div class="carousel-caption">
-            <h5>The <b class="text-danger">Man</b> who changed the world</h5>
+            <h5>Hello I'm <b class="text-danger">Hussain</b></h5>
 
             <a type="button" class="btn btn-outline-light" href="#Hobbies">
               Read More
@@ -83,9 +84,11 @@
     </div>
 
     <div class="container">
-      <h1 class="text-center py-4" id="Hobbies">🚴‍♀️<b>Hobbies</b> 👨🏻‍💻</h1>
+      <div data-aos="fade-up">
+        <h1 class="text-center py-4" id="Hobbies">🚴‍♀️<b>Hobbies</b> 👨🏻‍💻</h1>
+      </div>
       <div class="card-group">
-        <div class="card text-center">
+        <div data-aos="fade-up" class="card text-center">
           <img
             src="img/code.png"
             class="card-img-top mt-4 mx-auto d-block"
@@ -161,7 +164,7 @@
           </div>
         </div>
 
-        <div class="card text-center">
+        <div data-aos="fade-up" class="card text-center">
           <img
             src="img/cycling.png"
             class="card-img-top mt-4 mx-auto d-block"
@@ -237,7 +240,7 @@
           </div>
         </div>
 
-        <div class="card text-center">
+        <div data-aos="fade-up" class="card text-center">
           <img
             src="img/travel.png"
             class="card-img-top mt-4 mx-auto d-block"
@@ -328,7 +331,7 @@
           </div>
         </div>
 
-        <div class="card text-center">
+        <div data-aos="fade-up" class="card text-center">
           <img
             src="img/book.png"
             class="card-img-top mt-4 mx-auto d-block"
@@ -411,7 +414,7 @@
       </div>
     </div>
 
-    <div class="container bg-light text-center pb-3">
+    <div data-aos="fade-up" class="container bg-light text-center pb-3">
       <h1 class="text-center pt-4" id="reach"><b>Reach Me</b></h1>
       <a href="https://twitter.com/HussainCoding" class="fa fa-twitter"></a>
       <a
@@ -430,5 +433,9 @@
       integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
