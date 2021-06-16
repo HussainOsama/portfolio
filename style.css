@@ -75,3 +75,12 @@
   background: black;
   color: white;
 }
+
+.containerx {
+  display: flex;
+  font-size: 200px;
+  min-height: 100vh;
+  min-width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
